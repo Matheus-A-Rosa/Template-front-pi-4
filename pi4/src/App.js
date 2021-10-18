@@ -1,9 +1,8 @@
-export function App() {
-  return (
-    <div className="App">
-      <h1>PI 4 Fase</h1>
-    </div>
-  );
-}
+import React from 'react'
+
+import Routes from './components/Routes'
+
+const App = () => <Routes />;
 
 
+export default App
