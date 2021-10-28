@@ -1,12 +1,9 @@
-import React from 'react'
-import global from './styles/global.css'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Routes from './components/Routes';
 
-import Routes from './components/Routes'
 
-const App = () => 
-<global>
-<Routes />;
-</global>
+const App = () => <Routes />;
 
 
 export default App
