@@ -3,7 +3,7 @@ import {
     Button, Badge, Card, CardBody, CardTitle, CardSubtitle, CardText
   } from 'reactstrap';
   import Teste from '../Teste/index.js'
-  import BarraLogado from '../navbar/barraLogado.js';
+  import BarraLogado from '../../components/navbar/barraLogado.js';
 
 
 export function Initi() {
