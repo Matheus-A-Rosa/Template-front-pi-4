@@ -2,12 +2,16 @@ import {AccordionItem, AccordionHeader,Accordion  } from 'reactstrap';
 import {
     Button, Badge, Card, CardBody, CardTitle, CardSubtitle, CardText
   } from 'reactstrap';
+  import Teste from '../Teste/index.js'
+  import BarraLogado from '../navbar/barraLogado.js';
 
 
 export function Initi() {
     return(
         
         <>
+        <BarraLogado/>
+        <Teste/>
         <div>
         <Card>
           <CardBody>
